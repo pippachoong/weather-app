@@ -1,12 +1,11 @@
-import Page from "./components/Page";
+import Page from './components/Page';
 
 function App() {
-  return (
-      <div className="App">
-        <Page/>
-      </div>
-
-  )
+    return (
+        <div>
+            <Page />
+        </div>
+    );
 }
 
 export default App;
