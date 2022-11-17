@@ -7,7 +7,10 @@ const Page = () => {
         <Fragment>
             <Header/>
            <div className={styles.box}>
-            
+            {/* Form */}
+            {/* Error */}
+            {/* Loader */}
+            {/* Forecast */}
            </div>
         </Fragment>
     )
