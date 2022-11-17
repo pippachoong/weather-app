@@ -15,6 +15,8 @@ const Page = () => {
             <Header/>
            <div className={styles.box}>
             {/* Form */}
+            <Form />
+            {/* Error */}
             {/* Error */}
             {/* Loader */}
             {/* Forecast */}
