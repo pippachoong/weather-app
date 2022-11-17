@@ -5,6 +5,7 @@ import Forecast from '../Forecast';
 import Form from '../Form'
 import Loader from '../Loader'
 import UpcomingDaysForecast from '../UpcomingDaysForecast';
+import UpcomingDaysForecastItem from '../UpcomingDaysForecastitem';
 
 import styles from './Page.module.css'
 
