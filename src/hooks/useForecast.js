@@ -5,6 +5,8 @@ const useForecast = () => {
     const [isLoading, setLoading] = useState(false)
     const [forecast, setforecast] = useState(null)
 
+    // call the api
+
     return (
         isError,
         isLoading,
