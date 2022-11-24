@@ -20,7 +20,7 @@ const Page = () => {
             {/* Form */}
             <Form />
             {/* Error */}
-            { isError && <Error /> }
+            { isError && <Error message={isError}/> }
             {/* Loader */}
             { isLoading&& <Loader /> }
            </div>
