@@ -7,9 +7,12 @@ import Loader from '../Loader'
 import UpcomingDaysForecast from '../UpcomingDaysForecast';
 import UpcomingDaysForecastItem from '../UpcomingDaysForecastitem';
 
+import useForecast from '../../hooks/useForecast';
+
 import styles from './Page.module.css'
 
 const Page = () => {
+    const {isError, isLoading, forecast} = useForecast()
     return (
         <Fragment>
             <Header/>
@@ -17,10 +20,12 @@ const Page = () => {
             {/* Form */}
             <Form />
             {/* Error */}
-            {/* Error */}
+            { isError && <Error /> }
             {/* Loader */}
-            {/* Forecast */}
+            { isLoading&& <Loader /> }
            </div>
+            {/* Forecast */}
+            { forecast && <Forecast /> }
         </Fragment>
     )
 }
